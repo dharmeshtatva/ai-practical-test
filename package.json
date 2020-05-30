@@ -1,0 +1,30 @@
+{
+  "name": "ai-practical-test",
+  "version": "1.0.0",
+  "description": "Node.js practical test for engineer.ai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node src/seeder/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmeshtatva/ai-practical-test.git"
+  },
+  "author": "Dharmesh Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dharmeshtatva/ai-practical-test/issues"
+  },
+  "homepage": "https://github.com/dharmeshtatva/ai-practical-test#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^12.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "^1.10.0"
+  }
+}
