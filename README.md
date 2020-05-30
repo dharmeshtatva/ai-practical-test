@@ -20,3 +20,11 @@ Also, Exported and added in root folder (file: Engineer.io_Practical_Test.postma
 
 ## POSTMAN DOCUMENTATION LINK
 https://documenter.getpostman.com/view/2670949/SztD78bx
+
+
+## Possible Further Improvements
+ - Add Controller and Repository level to make application more maintainable for large project (I used service level only because time limit)
+ - Add custom error classes to handle errors still more efficiently.
+ - User logger library like winston to manage logs more properly with log-level and output option
+ - Integrate Eslint, Prettier
+ - Add Docker support
